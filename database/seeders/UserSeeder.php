@@ -16,7 +16,8 @@ class UserSeeder extends Seeder
         $data = [
             'username' => 'tado3002',
             'password' => Hash::make('mypassword'),
-            'name' => 'tado'
+            'name' => 'tado',
+            'token' => 'test'
 
         ];
         User::create($data);
