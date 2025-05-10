@@ -14,8 +14,6 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;
 
-use function Pest\Laravel\json;
-
 class UserController extends Controller
 {
     public function register(UserRegisterRequest $userRegisterRequest): JsonResponse
